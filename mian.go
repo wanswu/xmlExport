@@ -5,7 +5,7 @@ import (
 	"github.com/xuri/excelize/v2"
 	"os"
 	"strings"
-	"xmlImport/cmd"
+	"xmlExport/cmd"
 )
 
 func dirPath(temp []os.DirEntry) (xmlPath []string) {
